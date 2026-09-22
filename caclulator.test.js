@@ -1,15 +1,15 @@
 //describe() - Test plan
 // it() /test() - test case
 // expect() - assertion
-const { add } = require("./calculator");
+const { add,mul } = require("./calculator");
 describe("Add feature of the calcuator", () => {
   test("Add 2 positive numbers", () => {
     expect(add(5, 10)).toBe(15); 
-    //expect().toEqual()
-    //expect().toBeTruthy()
-    //expect().toBeFalsy()
-    //expect().toBeDefined()
-    //expect().toBeUndefined()
+
+  });
+  test("Multiply 2 positive numbers", () => {
+    expect(mul(5, 10)).toBe(51); 
+
   });
   it("Add 2 negative numbers", () => {
     expect(add(-5, -10)).toBe(-15);
