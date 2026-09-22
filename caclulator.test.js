@@ -8,7 +8,7 @@ describe("Add feature of the calcuator", () => {
 
   });
   test("Multiply 2 positive numbers", () => {
-    expect(mul(5, 10)).toBe(51); 
+    expect(mul(5, 10)).toBe(50); 
 
   });
   it("Add 2 negative numbers", () => {
