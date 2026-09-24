@@ -23,30 +23,29 @@ describe("calculateAverage", () => {
   });
 
   test("should handle decimal averages", () => {
-    // TODO
     expect(calculateAverage([80.5,70.2,90.8])).toBe(80.5)
   });
 });
 
 describe("getGrade", () => {
   test("should return A for average >= 90", () => {
-    // TODO
+   expect(getGrade(90)).toBe("A")
   });
 
   test("should return B for average between 75 and 89", () => {
-    // TODO
+    expect(getGrade(80)).toBe("B")
   });
 
   test("should return C for average between 60 and 74", () => {
-    // TODO
+   expect(getGrade(70)).toBe("C")
   });
 
   test("should return D for average between 40 and 59", () => {
-    // TODO
+    expect(getGrade(41)).toBe("D")
   });
 
   test("should return F for average below 40", () => {
-    // TODO
+    expect(getGrade(20)).toBe("A")
   });
 });
 
