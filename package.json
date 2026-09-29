@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchman=false --json --outputFile=results.json"
+    "test": "jest --watchman=false"
   },
   "keywords": [],
   "author": "",
