@@ -45,7 +45,7 @@ describe("getGrade", () => {
   });
 
   test("should return F for average below 40", () => {
-    expect(getGrade(20)).toBe("A")
+    expect(getGrade(20)).toBe("F")
   });
 });
 
